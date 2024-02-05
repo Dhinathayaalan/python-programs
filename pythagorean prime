@@ -1,0 +1,3 @@
+import sympy
+a=int(input())
+print(sympy.isprime(a) and (a-1)%4==0 )      
