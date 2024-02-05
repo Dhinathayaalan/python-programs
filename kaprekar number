@@ -1,0 +1,9 @@
+a=int(input())
+sq=a**2
+h=len(str(sq))/2
+u=sq//(10**h)
+l=sq%(10**h)
+if u+l==a:
+    print("yes")
+else:
+    print("no")
