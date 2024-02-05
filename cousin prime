@@ -1,0 +1,3 @@
+import sympy
+a,b=map(int,input().split())
+print(sympy.isprime(a) and sympy.isprime(b) and abs(a-b)==4) 
