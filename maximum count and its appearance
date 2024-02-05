@@ -1,0 +1,13 @@
+a=int(input())
+arr=[int(i) for i in input().split()]
+arr=list(arr)
+l=list(set(arr))
+max=0
+ele=0
+for i in range(0,len(l)):
+  c=arr.count(l[i])
+  if c>max:
+    max=c
+    ele=l[i]
+print(ele)
+print(max)
